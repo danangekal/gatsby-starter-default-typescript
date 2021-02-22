@@ -21,9 +21,12 @@
     "gatsbyjs",
     "gatsby",
     "gatsby-starter",
+    "gatsby-plugin",
     "gatsby-typescript",
     "reactjs",
-    "typescript"
+    "typescript",
+    "PWA",
+    "SEO"
   ],
   "scripts": {
     "build": "gatsby build",
