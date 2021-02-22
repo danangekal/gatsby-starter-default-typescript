@@ -36,7 +36,7 @@
     "clean": "gatsby clean",
     "lint": "eslint --ignore-path .gitignore \"src/**/*.+(js|ts|tsx)\" --quiet --fix",
     "format": "prettier --ignore-path .gitignore \"src/**/*.+(js|ts|tsx|css|scss|json|md|html)\" --write",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 0"
   },
   "dependencies": {
     "gatsby": "^2.32.4",
