@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Default Starter Typescript',
+    title: 'Gatsby Typescript Default Starter',
     description:
-      'The default stater gatsby starter with typescript & latest package',
+      'The default gatsby starter with typescript & latest package',
     author: '@danangekal',
   },
   plugins: [

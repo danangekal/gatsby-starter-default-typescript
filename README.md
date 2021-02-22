@@ -5,10 +5,10 @@
   </a>
 </p>
 <h1 align="center">
-  Gatsby's default starter typescript
+  Gatsby's typescript default starter
 </h1>
 
-Kick off your project with this default boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
+Kick off your project with this default boilerplate. This starter is based on gatsby-starter-default & ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
 
 _Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.com/starters/?)._
 
@@ -20,7 +20,7 @@ _Have another more specific idea? You may want to check out our vibrant collecti
 
     ```shell
     # create a new Gatsby site using the default starter
-    gatsby new my-default-starter https://github.com/danangekal/gatsby-starter-default-typescript
+    gatsby new my-default-starter https://github.com/danangekal/gatsby-typescript-default-starter
     ```
 
 1.  **Start developing.**
@@ -88,6 +88,21 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
 
 14. **`tsconfig.json`**: This is a configuration file for [typescript](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html). The tsconfig. json file allows you to specify the root level files and the compiler options that requires to compile a TypeScript project.
 
+## 🗒️ Features
+
+- [React.js 17](https://reactjs.org/blog/2020/10/20/react-v17.html) - Blog introduce React v17.0.
+- [Gatsby.js 2](https://www.gatsbyjs.com/docs/) - Documentaion of Gatsby.
+- [Typescript 4](https://www.typescriptlang.org/) - Documentation of Typescript.
+- [Eslint 7](https://eslint.org/docs/user-guide/getting-started) - Documentation of Eslint.
+- [Prettier 2](https://prettier.io/docs/en/index.html) - Documentation of Prettier.
+- [Husky 5](https://typicode.github.io/husky/#/) - Documentation of Husky.
+- [lint-staged 10](https://github.com/okonet/lint-staged) - Documentation of lint-staged.
+- [Gatsby Image](https://www.gatsbyjs.com/plugins/gatsby-plugin-image) - Documentation of gatsby image for optimize image loading sites.
+- [Gatsby Offline](https://www.gatsbyjs.com/plugins/gatsby-plugin-offline) - Documentation of gatsby offline for PWA.
+- [Gatsby Manifest](https://www.gatsbyjs.com/plugins/gatsby-plugin-manifest) - Documentation of gatsby manifest for PWA.
+- [Gatsby React Helmet](https://www.gatsbyjs.com/plugins/gatsby-plugin-react-helmet) - Documentation of gatsby react helmet for SEO.
+- and other plugins standar default stater.
+
 ## 🎓 Learning Gatsby
 
 Looking for more guidance? Full documentation for Gatsby lives [on the website](https://www.gatsbyjs.com/). Here are some places to start:
@@ -98,8 +113,8 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 
 ## 💫 Deploy
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/danangekal/gatsby-starter-default-typescript)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/danangekal/gatsby-typescript-default-starter)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/danangekal/gatsby-starter-default-typescript)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/danangekal/gatsby-typescript-default-starter)
 
 <!-- AUTO-GENERATED-CONTENT:END -->

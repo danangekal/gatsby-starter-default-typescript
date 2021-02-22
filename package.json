@@ -1,16 +1,16 @@
 {
-  "name": "gatsby-starter-default-typescript",
+  "name": "gatsby-typescript-default-starter",
   "version": "0.1.0",
   "description": "The default stater gatsby starter with typescript & latest package",
   "main": "index.js",
   "author": "Danang Eko Alfianto <github.com/danangekal>",
-  "homepage": "https://github.com/danangekal/gatsby-starter-default-typescript#readme",
+  "homepage": "https://github.com/danangekal/gatsby-typescript-default-starter#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/danangekal/gatsby-starter-default-typescript.git"
+    "url": "git+https://github.com/danangekal/gatsby-typescript-default-starter.git"
   },
   "bugs": {
-    "url": "https://github.com/danangekal/gatsby-starter-default-typescript/issues"
+    "url": "https://github.com/danangekal/gatsby-typescript-default-starter/issues"
   },
   "license": "MIT",
   "keywords": [
@@ -18,6 +18,7 @@
     "husky",
     "prettier",
     "lint-staged",
+    "gatsbyjs",
     "gatsby",
     "gatsby-starter",
     "gatsby-typescript",
