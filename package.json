@@ -13,14 +13,14 @@
   },
   "license": "MIT",
   "keywords": [
+    "gatsby",
+    "reactjs",
+    "typescript",
+    "pwa",
     "eslint",
     "husky",
     "prettier",
-    "lint-staged",
-    "gatsby",
-    "typescript",
-    "PWA",
-    "SEO"
+    "lint-staged"
   ],
   "scripts": {
     "build": "gatsby build",

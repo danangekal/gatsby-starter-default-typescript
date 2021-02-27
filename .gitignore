@@ -59,7 +59,6 @@ yarn-error.log*
 .env.production.local
 
 # package lock
-yarn.lock
 package-lock.json
 
 # Yarn Integrity file
