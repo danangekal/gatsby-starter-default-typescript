@@ -31,7 +31,7 @@ _Have another more specific idea? You may want to check out our vibrant collecti
 
 1.  **Create a Gatsby site.**
 
-    Use the Gatsby CLI to create a new site, specifying the default starter.
+    Use the Gatsby CLI to create a new site, specifying the default starter. Noted: node >= 12.13.0
 
     ```shell
     # create a new Gatsby site using the default starter
@@ -71,6 +71,7 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
     ├── gatsby-node.js
     ├── gatsby-ssr.js
     ├── LICENSE
+    ├── package-lock.json
     ├── package.json
     └── README.md
     └── tsconfig.json
@@ -97,11 +98,13 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
 
 11.  **`LICENSE`**: This Gatsby starter is licensed under the 0BSD license. This means that you can see this file as a placeholder and replace it with your own license.
 
-12. **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
+12. **`package-lock.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
 
-13. **`README.md`**: A text file containing useful reference information about your project.
+13. **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
 
-14. **`tsconfig.json`**: This is a configuration file for [typescript](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html). The tsconfig. json file allows you to specify the root level files and the compiler options that requires to compile a TypeScript project.
+14. **`README.md`**: A text file containing useful reference information about your project.
+
+15. **`tsconfig.json`**: This is a configuration file for [typescript](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html). The tsconfig. json file allows you to specify the root level files and the compiler options that requires to compile a TypeScript project.
 
 ## 🎓 Learning Gatsby
 
