@@ -12,14 +12,48 @@ function IndexPage(): ReactElement {
       <h1>Hi people</h1>
       <p>Welcome to your new Gatsby site with typescript.</p>
       <p>Now go build something great.</p>
-      <StaticImage
-        src="../images/gatsby-astronaut.png"
-        width={300}
-        quality={95}
-        formats={['auto', 'webp', 'avif']}
-        alt="A Gatsby astronaut"
-        style={{ marginBottom: '1.45rem' }}
-      />
+      <div
+        style={{
+          display: 'flex',
+          flexWrap: 'wrap',
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}
+      >
+        <StaticImage
+          src="../images/gatsby-astronaut.png"
+          width={300}
+          quality={100}
+          formats={['auto', 'webp', 'avif']}
+          alt="A Gatsby astronaut"
+          style={{ marginBottom: '1.45rem' }}
+        />
+        <div
+          style={{
+            display: 'flex',
+            flexWrap: 'wrap',
+            justifyContent: 'center',
+            alignItems: 'center',
+          }}
+        >
+          <StaticImage
+            src="../images/gatsby-icon.png"
+            width={80}
+            quality={100}
+            formats={['auto', 'webp', 'avif']}
+            alt="A Gatsby icon"
+            style={{ margin: '0 0.5rem 1.45rem' }}
+          />
+          <StaticImage
+            src="../images/typescript-icon.png"
+            width={80}
+            quality={100}
+            formats={['auto', 'webp', 'avif']}
+            alt="A Typescript icon"
+            style={{ margin: '0 0.5rem 1.45rem' }}
+          />
+        </div>
+      </div>
       <p>
         <Link to="/page-2/">Go to page 2</Link>
       </p>

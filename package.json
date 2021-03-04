@@ -16,12 +16,12 @@
     "gatsby",
     "reactjs",
     "typescript",
-    "pwa",
-    "seo",
     "eslint",
     "husky",
     "prettier",
-    "lint-staged"
+    "lint-staged",
+    "pwa",
+    "seo"
   ],
   "scripts": {
     "build": "gatsby build",
