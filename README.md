@@ -14,17 +14,17 @@ _Have another more specific idea? You may want to check out our vibrant collecti
 
 ## 🗒️ Features
 
-- [React.js 17 + Hooks](https://reactjs.org/blog/2020/10/20/react-v17.html) - Blog introduce React v17.0.
-- [Gatsby.js 3](https://www.gatsbyjs.com/docs/) - Documentaion of Gatsby.
-- [Typescript 4](https://www.typescriptlang.org/) - Documentation of Typescript.
-- [Eslint 7](https://eslint.org/docs/user-guide/getting-started) - Documentation of Eslint.
-- [Prettier 2](https://prettier.io/docs/en/index.html) - Documentation of Prettier.
-- [Husky 5](https://typicode.github.io/husky/#/) - Documentation of Husky.
-- [Lint Staged 10](https://github.com/okonet/lint-staged) - Documentation of Lint Staged.
-- [Gatsby Image](https://www.gatsbyjs.com/plugins/gatsby-plugin-image) - Documentation of gatsby image for optimize image loading sites.
-- [Gatsby Offline](https://www.gatsbyjs.com/plugins/gatsby-plugin-offline) - Documentation of gatsby offline for PWA.
+- [React.js 17 + Hooks](https://reactjs.org/blog/2020/10/20/react-v17.html) - Blog introduce react v17.0.
+- [Gatsby.js 3](https://www.gatsbyjs.com/docs/) - Documentaion of gatsby.
+- [Typescript 4](https://www.typescriptlang.org/) - Documentation of typescript.
+- [Eslint 7](https://eslint.org/docs/user-guide/getting-started) - Documentation of eslint.
+- [Prettier 2](https://prettier.io/docs/en/index.html) - Documentation of prettier.
+- [Husky 5](https://typicode.github.io/husky/#/) - Documentation of husky.
+- [Lint Staged 10](https://github.com/okonet/lint-staged) - Documentation of lint staged.
+- [Gatsby Image](https://www.gatsbyjs.com/plugins/gatsby-plugin-image) - Documentation of gatsby plugins image for optimize image loading sites.
+- [Gatsby Offline](https://www.gatsbyjs.com/plugins/gatsby-plugin-offline) - Documentation of gatsby plugins offline for PWA.
 - [Gatsby Manifest](https://www.gatsbyjs.com/plugins/gatsby-plugin-manifest) - Documentation of gatsby manifest for PWA.
-- [Gatsby React Helmet](https://www.gatsbyjs.com/plugins/gatsby-plugin-react-helmet) - Documentation of gatsby react helmet for SEO.
+- [Gatsby React Helmet](https://www.gatsbyjs.com/plugins/gatsby-plugin-react-helmet) - Documentation of gatsby plugins react helmet for SEO.
 - And other plugins gatsby default stater.
 
 ## 🚀 Quick start
