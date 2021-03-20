@@ -7,9 +7,25 @@
     <img alt="Typescript" src="./src/images/typescript-icon.png" width="60" />
   </a>
 </p>
+
 <h1 align="center">
   Gatsby's typescript default starter
 </h1>
+
+<p align="center">
+  <a href="https://github.com/danangekal/gatsby-typescript-default-starter/blob/master/LICENSE">
+    <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="Gatsby is released under the MIT license." />
+  </a>
+  <a href="https://www.npmjs.com/package/gatsby-typescript-default-starter">
+    <img src="https://img.shields.io/npm/v/gatsby.svg" alt="Current npm package version." />
+  </a>
+  <a href="https://npmcharts.com/compare/gatsby-typescript-default-starter?minimal=true">
+    <img src="https://img.shields.io/npm/dm/gatsby.svg" alt="Downloads per month on npm." />
+  </a>
+  <a href="https://npmcharts.com/compare/gatsby-typescript-default-starter?minimal=true">
+    <img src="https://img.shields.io/npm/dt/gatsby.svg" alt="Total downloads on npm." />
+  </a>
+</p>
 
 This starter is based on [gatsby-starter-default](https://github.com/gatsbyjs/gatsby-starter-default). Kick off your project with this default boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
 
@@ -97,9 +113,9 @@ A quick look at the top-level files and directories you'll see in a Gatsby proje
 
 9.  **`gatsby-node.js`**: This file is where Gatsby expects to find any usage of the [Gatsby Node APIs](https://www.gatsbyjs.com/docs/node-apis/) (if any). These allow customization/extension of default Gatsby settings affecting pieces of the site build process.
 
-10.  **`gatsby-ssr.js`**: This file is where Gatsby expects to find any usage of the [Gatsby server-side rendering APIs](https://www.gatsbyjs.com/docs/ssr-apis/) (if any). These allow customization of default Gatsby settings affecting server-side rendering.
+10. **`gatsby-ssr.js`**: This file is where Gatsby expects to find any usage of the [Gatsby server-side rendering APIs](https://www.gatsbyjs.com/docs/ssr-apis/) (if any). These allow customization of default Gatsby settings affecting server-side rendering.
 
-11.  **`LICENSE`**: This Gatsby starter is licensed under the 0BSD license. This means that you can see this file as a placeholder and replace it with your own license.
+11. **`LICENSE`**: This Gatsby starter is licensed under the 0BSD license. This means that you can see this file as a placeholder and replace it with your own license.
 
 12. **`package-lock.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
 
@@ -116,7 +132,6 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 - **For most developers, we recommend starting with our [in-depth tutorial for creating a site with Gatsby](https://www.gatsbyjs.com/tutorial/).** It starts with zero assumptions about your level of ability and walks through every step of the process.
 
 - **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.com/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
-
 
 ## ❤️ Credits
 
