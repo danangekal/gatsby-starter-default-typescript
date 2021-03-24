@@ -33,7 +33,6 @@ jobs:
           node-version: 12.13.0
 
       # Publish package to NPM
-      - id: publish
       - name: Publish package to NPM
         uses: JS-DevTools/npm-publish@v1
         with:
