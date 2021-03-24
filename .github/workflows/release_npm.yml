@@ -2,9 +2,9 @@
 
 name: CI for NPM publish
 
-# Controls when the action will run. 
+# Controls when the action will run.
 on:
-  # Triggers the workflow on push or pull request events but only for the main branch
+  # Triggers the workflow on push or pull request events but only for the release/npm branch
   push:
     branches: [ release/npm ]
   pull_request:
@@ -31,14 +31,14 @@ jobs:
         uses: actions/setup-node@v2.1.5
         with:
           node-version: 12.13.0
-          
+
       # Publish package to NPM
       - id: publish
       - name: Publish package to NPM
         uses: JS-DevTools/npm-publish@v1
         with:
           token: ${{ secrets.NPM_ACCESS_TOKEN }}
-          
+
       - if: steps.publish.outputs.type != 'none'
         run: |
           echo "Version changed: ${{ steps.publish.outputs.old-version }} => ${{ steps.publish.outputs.version }}"
