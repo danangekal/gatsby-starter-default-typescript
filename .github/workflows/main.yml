@@ -42,12 +42,9 @@ jobs:
 
       - name: Create Release & Tag
         if: steps.publish.outputs.type != 'none'
-        uses: actions/create-release@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        uses: ncipollo/release-action@v1
         with:
-          tag_name: ${{ steps.publish.outputs.version }}
-          release_name: Release ${{ steps.publish.outputs.version }}
+          tag: ${{ steps.publish.outputs.version }}
+          name: Release ${{ steps.publish.outputs.version }}
           body: ${{ steps.publish.outputs.version }}
-          draft: false
-          prerelease: false
+          token: ${{ secrets.GITHUB_TOKEN }}
