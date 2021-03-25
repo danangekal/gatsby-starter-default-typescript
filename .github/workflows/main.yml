@@ -4,9 +4,7 @@ name: CI for publish to NPM
 
 # Controls when the action will run.
 on:
-  # Triggers the workflow on push or pull request events but only for the release/npm branch
-  push:
-    branches: [ release/npm ]
+  # Triggers the workflow on pull request events but only for the release/npm branch
   pull_request:
     branches: [ release/npm ]
 
