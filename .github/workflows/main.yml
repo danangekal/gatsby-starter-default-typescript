@@ -4,9 +4,9 @@ name: CI for publish to NPM
 
 # Controls when the action will run.
 on:
-  # Triggers the workflow on push or pull request events but only for the main branch
+  # Triggers the workflow on push or pull request events but only for the release/npm branch
   push:
-    branches: [ main ]
+    branches: [ release/npm ]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -35,6 +35,19 @@ jobs:
 
       # Publish package to NPM
       - name: Publish package to NPM
+        id: publish
         uses: JS-DevTools/npm-publish@v1
         with:
           token: ${{ secrets.NPM_ACCESS_TOKEN }}
+
+      - name: Create Release & Tag
+        if: steps.publish.outputs.type != 'none'
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ steps.publish.outputs.version }}
+          release_name: Release ${{ steps.publish.outputs.version }}
+          body: ${{ steps.publish.outputs.version }}
+          draft: false
+          prerelease: false
