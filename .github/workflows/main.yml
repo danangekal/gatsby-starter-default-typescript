@@ -24,16 +24,14 @@ jobs:
       - name: Check Out Repo
         uses: actions/checkout@v2.3.4
 
-      - name: Publish to NPM if version has been updated
-        uses: pascalgn/npm-publish-action@1.3.7
+      # Setup node environment
+      - name: Setup Node environment
+        uses: actions/setup-node@v2.1.5
         with:
-          tag_name: "v%s"
-          tag_message: "v%s"
-          create_tag: "true"
-          commit_pattern: "^Release (\\S+)"
-          workspace: "."
-          publish_command: "yarn"
-          publish_args: "--non-interactive"
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
+          node-version: 12.13.0
+
+      # Publish package to NPM
+      - name: Publish package to NPM
+        uses: JS-DevTools/npm-publish@v1
+        with:
+          token: ${{ secrets.NPM_ACCESS_TOKEN }}
