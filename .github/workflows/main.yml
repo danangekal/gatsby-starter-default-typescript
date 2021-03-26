@@ -30,7 +30,7 @@ jobs:
         with:
           node-version: 12.13.0
 
-      - name: Run npm install
+      - name: Run install dependencies
         run: yarn install
 
       # Publish package to NPM
@@ -40,6 +40,7 @@ jobs:
         with:
           token: ${{ secrets.NPM_ACCESS_TOKEN }}
 
+      # Create release & tag
       - name: Create Release & Tag
         if: steps.publish.outputs.type != 'none'
         uses: ncipollo/release-action@v1
