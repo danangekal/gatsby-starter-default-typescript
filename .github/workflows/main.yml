@@ -45,7 +45,6 @@ jobs:
         if: steps.publish.outputs.type != 'none'
         uses: ncipollo/release-action@v1
         with:
-          tag: ${{ steps.publish.outputs.version }}
-          name: Release ${{ steps.publish.outputs.version }}
-          body: ${{ steps.publish.outputs.version }}
+          tag: v${{ steps.publish.outputs.version }}
+          name: v${{ steps.publish.outputs.version }}
           token: ${{ secrets.GITHUB_TOKEN }}
